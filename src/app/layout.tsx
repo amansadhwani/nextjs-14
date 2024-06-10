@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import Link from "next/link";
+// import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const routes = [
+  { href: "/about",name:"About us" },
+  { href: "/contact",name:"Contact us" },
+  { href: "/loading_error",name:"Loading Error" },
+  { href: "/dynamic_routes",name:"Dynamic Routes" },
+];
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +24,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ul>
+          {routes.map((item) => {
+            return (
+              <li key={item.href}>
+                <Link href={item.href}>{item.name}</Link>
+              </li>
+            );
+          })}
+        </ul>
+        {children}
+      </body>
     </html>
   );
 }
