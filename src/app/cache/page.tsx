@@ -8,6 +8,12 @@ export default function CacheTechniques() {
         <Link href="/cache/request_memoization">
           <li>Requst Memoization</li>
         </Link>
+        <Link href="/cache/data_cache">
+          <li>Data Cache</li>
+        </Link>
+        <Link href="/cache/full_route_cache">
+          <li>Full route cache</li>
+        </Link>
       </ul>
     </>
   );
