@@ -10,6 +10,7 @@ const routes = [
   { href: "/contact",name:"Contact us" },
   { href: "/loading_error",name:"Loading Error" },
   { href: "/dynamic_routes",name:"Dynamic Routes" },
+  { href: "/cache",name:"Caching" },
 ];
 
 export const metadata: Metadata = {
