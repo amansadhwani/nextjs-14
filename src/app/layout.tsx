@@ -11,6 +11,7 @@ const routes = [
   { href: "/loading_error",name:"Loading Error" },
   { href: "/dynamic_routes",name:"Dynamic Routes" },
   { href: "/cache",name:"Caching" },
+  { href: "/ssg",name:"Static Site Generation" },
 ];
 
 export const metadata: Metadata = {
