@@ -6,12 +6,13 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 const routes = [
-  { href: "/about",name:"About us" },
-  { href: "/contact",name:"Contact us" },
-  { href: "/loading_error",name:"Loading Error" },
-  { href: "/dynamic_routes",name:"Dynamic Routes" },
-  { href: "/cache",name:"Caching" },
-  { href: "/ssg",name:"Static Site Generation" },
+  { href: "/about", name: "About us" },
+  { href: "/contact", name: "Contact us" },
+  { href: "/loading_error", name: "Loading Error" },
+  { href: "/dynamic_routes", name: "Dynamic Routes" },
+  { href: "/cache", name: "Caching" },
+  { href: "/ssg", name: "Static Site Generation" },
+  { href: "/server_actions", name: "Server Actions" },
 ];
 
 export const metadata: Metadata = {
