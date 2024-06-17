@@ -25,6 +25,22 @@ export default function ServerActions() {
           Form Example <Link href="/server_actions/form"> Click Here</Link>
         </li>
       </ul>
+      <h1>Use Optimistic</h1>
+      <ul>
+        <li>It kind of predicting the output</li>
+        <li>
+          if we update something and api might take some time to return data so
+          kind of predict result and updates it quickly
+        </li>
+        <li>
+          it can also happen that server send invalid resoponse so it will
+          revert to original value
+        </li>
+        <li>
+          Use Optimistic Example{" "}
+          <Link href="/server_actions/use_optimistic/use_optimistic_example"> Click Here</Link>
+        </li>
+      </ul>
     </>
   );
 }

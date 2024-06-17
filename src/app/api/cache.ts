@@ -21,7 +21,7 @@ export async function getUser(userId: string | number) {
     .then((data) => data);
 }
 
-function wait(duration: number) {
+export function wait(duration: number) {
   return new Promise((resolve) => {
     setTimeout(resolve, duration);
   });
