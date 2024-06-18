@@ -1,7 +1,7 @@
 "use client";
 
 import { useOptimistic, useTransition } from "react";
-import { toggleTodo } from "../../actions/todos";
+import { toggleTodo } from "../actions/todos";
 
 export default function Todo({ id, title, completed }: any) {
   const [isPending, startTransition] = useTransition();

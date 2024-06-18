@@ -38,7 +38,7 @@ export default function ServerActions() {
         </li>
         <li>
           Use Optimistic Example{" "}
-          <Link href="/server_actions/use_optimistic/use_optimistic_example"> Click Here</Link>
+          <Link href="/server_actions/use_optimistic"> Click Here</Link>
         </li>
       </ul>
     </>
